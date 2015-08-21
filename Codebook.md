@@ -1,13 +1,15 @@
-##############
-## CODEBOOK ##
-##############
+## CODEBOOK
 
-The "orderedSecondDataset" stored in the file week3assignment.txt contains the data collected from an experiment carried out with a group of 30 volunteers, who performed six kind of activities. Then the dataset has 30x6=180 rows and 81 variables (ID, activities, mean and std.dev of each observation)
+The "orderedSecondDataset", stored in the file "week3assignment.txt", contains the data collected on a Samsung Galaxy S2 from an experiment carried out with a group of 30 volunteers, who performed six kind of activities. The dataset has, then, 30x6=180 rows and 81 variables (ID, activities, mean and std.dev of each type of observation)
 
-[1] "ID"	
+[1] "ID"
+	
     Levels: 1:30
+
 [2] "activity"
+
     Levels:
+
     LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
   
 [3] "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"              
