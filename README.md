@@ -2,41 +2,42 @@
 ## Project course
 ## Week 3
 
-## The script begins loading all the required libraries
+### Creating the first dataset 
 
-## All the single files are loaded and assigned to six variables:
-## RAWtest and RAWtraining contain the measurements
-## RAWactTest and RAWactTrain contain the activities
-## RAWcaseTest and RAWcaseTrain contain the IDs
-## fatures contains the names of the variables
-## activities contains the names of the activities
+The script begins loading all the required libraries
 
-## The names of the variables are assigned to the two main datasets
-## data.frames are converted to data.tables
-## Two variables (activity and ID) are added to the two main datasets 
+All the single files are loaded and assigned to six variables:
+* RAWtest and RAWtraining contain the measurements
+* RAWactTest and RAWactTrain contain the activities
+* RAWcaseTest and RAWcaseTrain contain the IDs
+* fatures contains the names of the variables
+* activities contains the names of the activities
 
-## An istruction appropriately labels the data set with descriptive variable names
+The names of the variables are assigned to the two main datasets
+data.frames are converted to data.tables
+Two variables (activity and ID) are added to the two main datasets 
 
-## The training and the test sets are merged to create one data set.
+An istruction appropriately labels the data set with descriptive variable names
 
-## Now the script extracts only the measurements on the mean and standard deviation for each measurement 
-## All variable names containing the words "mean" and "std" are stored in a vector (goodCol)
-## Also column ID and activity are considered  
-## The final dataset is, finally, compiled 
+The training and the test sets are merged to create one data set.
 
-## Descriptive activity names are added to the final set
+Now the script extracts only the measurements on the mean and standard deviation for each measurement 
+All variable names containing the words "mean" and "std" are stored in a vector (goodCol)
+Also column ID and activity are considered  
+The final dataset is, finally, compiled 
 
-############################################################################################################################
+Descriptive activity names are added to the final set
 
-## From the final dataset, a second, independent tidy data set is created with the average of each variable for each activity and each subject.
-## Melt and dcast are used for this task.
+### Creating the first dataset
 
-## The ordered second dataset is stored in a txt file called "week3assignment"
+From the final dataset, a second, independent tidy data set is created with the average of each variable for each activity and each subject.
+
+Melt and dcast are used for this task.
+
+The ordered second dataset is stored in a txt file called "week3assignment"
 
 
-##############
-## CODEBOOK ##
-##############
+### The codebook
 
 The "orderedSecondDataset" stored in the file week3assignment.txt contains the data collected from an experiment carried out with a group of 30 volunteers, who performed six kind of activities. Then the dataset has 30x6=180 rows and 81 variables (ID, activities, mean and std.dev of each observation)
 
